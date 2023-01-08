@@ -30,7 +30,7 @@ const Footer = () => {
                   345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
                 </p>
               </div>
-              <div className='flex justify-between mt-[22px]'>
+              <div className='flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between mt-[22px]'>
                 <div className='tel flex'>
                   <span>
                     <img src={Tel} alt='' />
@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className='social mt-[52px] flex items-center gap-[30px]'>
+            <div className='social mt-[52px] flex flex-wrap items-center gap-[30px]'>
               <p className='text-sm text-[#0A142F] opacity-50'>Social Media</p>
               <div className='icon'>
                 <img src={Facebook} alt='' />
@@ -76,8 +76,8 @@ const Footer = () => {
         </div>
         <div className='footer-links w-[90%] mx-auto mb-4'>
           <hr className='border-[#7BB9FC] border-1 mb-6 ' />
-          <div className='flex flex-col min-[1300px]:flex-row gap-6 justify-between items-center'>
-            <div className='left-links text-xs lg:text-sm flex gap-[29px]'>
+          <div className='flex flex-col min-[1300px]:flex-row gap-6 justify-between items-start sm:items-center'>
+            <div className='left-links text-xs lg:text-sm flex flex-col sm:flex-row gap-[29px]'>
               <div className='link'>ABOUT US</div>
               <div className='link'>CONTACT US</div>
               <div className='link'>HELP</div>

@@ -178,7 +178,7 @@ const Flexibility = () => {
               <div className='flex items-center justify-center w-full'>
                 <label className='drag-image w-full h-[102px] rounded-[10px] bg-[rgba(244, 81, 30, 0.01)]'>
                   <div className='grid place-content-center h-[100%] text-center gap-y-2'>
-                    <h3 className='font-medium font-poppins'>
+                    <h3 className='text-sm sm:text-base font-medium font-poppins'>
                       Drag your images here, or
                       <span className='text-orange font-bold'> browse</span>
                     </h3>
@@ -193,7 +193,7 @@ const Flexibility = () => {
               <input
                 type='submit'
                 value='Add New Property'
-                className='bg-orange text-white mt-[55px] py-5 w-[80%] lg:w-[30%] rounded-[10px]'
+                className='bg-orange text-white mt-[55px] py-5 w-[100%] lg:w-[30%] rounded-[10px]'
               />
             </div>
           </form>

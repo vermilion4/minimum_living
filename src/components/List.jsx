@@ -40,7 +40,7 @@ const List = () => {
   return (
     <section className='bg-light-grey'>
       <div className='list-properties w-[80%] mx-auto pt-[61px] max-w-[1400px]'>
-        <div className='list-properties__header flex items-center justify-between'>
+        <div className='list-properties__header flex flex-col sm:flex-row items-center justify-start sm:justify-between gap-5 sm:gap-0'>
           <div className='font-extrabold text-3xl text-text-gray'>
             <span className='border-b-[3px] border-b-orange'>List O</span>f
             Properties
@@ -53,7 +53,7 @@ const List = () => {
           {propertyArray.map(({ image, id }) => (
             <div
               key={id}
-              className='property-card w-[350px] mx-auto rounded-[26.6166px] shadow-card border border-[#979797]'>
+              className='property-card max-w-[350px] mx-auto rounded-[26.6166px] shadow-card border border-[#979797]'>
               <div className='property-img'>
                 <img src={image} alt='' />
               </div>
@@ -93,7 +93,7 @@ const List = () => {
             <li>
               <a
                 href='#'
-                className='p-[25px] ml-0 leading-tight text-muted bg-[#F3F3F3] rounded-l-lg border border-muted '>
+                className='p-3 sm:p-[25px] ml-0 leading-tight text-muted bg-[#F3F3F3] rounded-l-lg border border-muted '>
                 First
               </a>
             </li>
@@ -101,7 +101,7 @@ const List = () => {
             <li>
               <a
                 href='#'
-                className='p-[25px] leading-tight text-orange bg-white border border-muted '>
+                className='p-3 sm:p-[25px] leading-tight text-orange bg-white border border-muted '>
                 1
               </a>
             </li>
@@ -109,21 +109,21 @@ const List = () => {
               <a
                 href='#'
                 aria-current='page'
-                className='p-[25px] text-white  bg-orange border border-muted'>
+                className='p-3 sm:p-[25px] text-white  bg-orange border border-muted'>
                 2
               </a>
             </li>
             <li>
               <a
                 href='#'
-                className='p-[25px] leading-tight text-orange bg-white border border-muted '>
+                className='p-3 sm:p-[25px] leading-tight text-orange bg-white border border-muted '>
                 3
               </a>
             </li>
             <li>
               <a
                 href='#'
-                className='p-[25px] leading-tight text-orange rounded-r-lg bg-white border border-muted '>
+                className='p-3 sm:p-[25px] leading-tight text-orange rounded-r-lg bg-white border border-muted '>
                 Next
               </a>
             </li>

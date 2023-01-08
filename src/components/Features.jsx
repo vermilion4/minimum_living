@@ -60,7 +60,7 @@ const Features = () => {
                 <div className='icon p-3 shadow-light w-[50px] h-[50px] rounded-[10px]'>
                   <img src={icon} alt='' />
                 </div>
-                <div className='text mt-5 font-semibold text-[20px] md:text-[26px] capitalize'>
+                <div className='text mt-5 font-semibold text-sm sm:text-[20px] md:text-[26px] capitalize leading-[35px]'>
                   {text}
                 </div>
               </div>
