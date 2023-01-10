@@ -12,3 +12,26 @@
 .drag-image {
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23F4511EFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 }
+
+/* Swiper */
+
+.swiper {
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+.swiper-slide p {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination {
+  display: none;
+}
