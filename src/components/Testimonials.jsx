@@ -28,14 +28,6 @@ const Testimonials = () => {
               grabCursor={true}
               // centeredSlides={true}
               slidesPerView={1}
-              // coverflowEffect={{
-              //   rotate: 50,
-              //   stretch: 0,
-              //   depth: 100,
-              //   modifier: 1,
-              //   slideShadows: false,
-              // }}
-              pagination={true}
               className='mySwiper'>
               <SwiperSlide>
                 <p className='text-lg xl:text-[21px] text-center lg:text-left leading-7 xl:leading-9'>
@@ -69,16 +61,16 @@ const Testimonials = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className='testifier w-[70%] sm:w-[50%] mx-auto lg:mx-0 lg:w-[40%] gap-[19px] mt-[26px] flex items-center justify-center lg:justify-start'>
-            <div className='testifier-img  '>
+          <div className='testifier relative h-[100px] w-[80%] mx-auto lg:mx-0  gap-[19px] mt-[26px] flex items-start justify-center lg:justify-start'>
+            <div className='testifier-img absolute top-0 left-0 sm:left-[90px] lg:left-0 z-20'>
               <img src={Harry} alt='' />
             </div>
             <Swiper
               autoplay={true}
               grabCursor={true}
-              slidesPerView={1}
               pagination={true}
-              className='nameSwiper h-[50px] w-[100%]'>
+              slidesPerView={1}
+              className='nameSwiper h-[50px] w-[100%] sm:w-[50%] lg:w-[100%]'>
               <SwiperSlide>
                 <p className='text-lg font-bold text-orange'>Harry Wilson</p>
                 <p>Property Owner</p>
@@ -90,8 +82,10 @@ const Testimonials = () => {
             </Swiper>
           </div>
         </div>
-        <div className='video'>
-          <img src={videoPic} alt='' />
+        <div className='video lg:basis-[50%]'>
+          <iframe
+            className='h-[300px] lg:h-[590px] w-[100%] max-w-[700px]  mx-auto'
+            src='https://www.youtube.com/embed/EB_4iY91Ydw'></iframe>
         </div>
       </div>
     </section>
