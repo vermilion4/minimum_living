@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/minimum_living/static/css/main.0a385375.css",
+    "main.css": "/minimum_living/static/css/main.9c1a1819.css",
     "main.js": "/minimum_living/static/js/main.4f1299fd.js",
     "static/media/hero-bg.png": "/minimum_living/static/media/hero-bg.483d3be4698f7f2ebdf4.png",
     "static/media/video.png": "/minimum_living/static/media/video.de07c878c9543f26d25c.png",
@@ -20,11 +20,11 @@
     "index.html": "/minimum_living/index.html",
     "static/media/quote.svg": "/minimum_living/static/media/quote.c5cd9e45761cd0e99b752b4cf9dc8538.svg",
     "static/media/down.svg": "/minimum_living/static/media/down.6dd9cfa17c93059835be7904268daf42.svg",
-    "main.0a385375.css.map": "/minimum_living/static/css/main.0a385375.css.map",
+    "main.9c1a1819.css.map": "/minimum_living/static/css/main.9c1a1819.css.map",
     "main.4f1299fd.js.map": "/minimum_living/static/js/main.4f1299fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a385375.css",
+    "static/css/main.9c1a1819.css",
     "static/js/main.4f1299fd.js"
   ]
 }
